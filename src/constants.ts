@@ -11,7 +11,8 @@ export enum ChainId {
   KOVAN = 42,
   TOMOCHAIN_DEVNET = 99,
   TOMOCHAIN_TESTNET = 89,
-  TOMOCHAIN_MAINNET = 88
+  TOMOCHAIN_MAINNET = 88,
+  FACCHAIN = 1997
 }
 
 export enum TradeType {
@@ -26,10 +27,10 @@ export enum Rounding {
 }
 
 // TODO: Need to change to luaswap's factory address
-export const FACTORY_ADDRESS = '0x0388C1E0f210AbAe597B7DE712B9510C6C36C857'
+export const FACTORY_ADDRESS = '0x7d3f09a40a93acad98f16e56237ba6187ee0ab68'
 
 // TODO: Need to change every code smartcontract updated
-export const INIT_CODE_HASH = '0xf176ce2ef2ec9c3333f7ab282e4269fdd75024da47415e2c7c6e04272fc1bfab'
+export const INIT_CODE_HASH = '0x9020c8b9967def5c9eb8e0391a89bed501b113aa0435f7022a02d36b3d82a51d'
 // Tomo factory address testnet: 0x1BA0DdCa35e152bE46e85e1EF9Db22d431dDc95e
 export const TOMO_FACTORY_ADDRESS = '0x28c79368257CD71A122409330ad2bEBA7277a396'
 // Tomo init code testnet: 0x2b9f535a55a8f0b77a1508fcfc2c2ed9d6ea509f3ea06d803782ad840328d61e

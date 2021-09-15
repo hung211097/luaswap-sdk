@@ -100,5 +100,12 @@ export const WETH = {
     18,
     'WTOMO',
     'Wrapped TOMO'
+  ),
+  [ChainId.FACCHAIN]: new Token(
+    ChainId.FACCHAIN,
+    '0x8c830891E20dbBb5368FDfb006cC73981B06E632',
+    18,
+    'WFAC',
+    'Wrapped FAC'
   )
 }
